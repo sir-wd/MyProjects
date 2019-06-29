@@ -46,6 +46,10 @@ public class JTest {
 
     }
 
+    /**
+     * 关闭
+     * @throws Exception
+     */
     public static void tearDownAfterClass() throws Exception{
         jd.close();
     }
